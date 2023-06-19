@@ -1,2 +1,2 @@
-# goncaloesteves.ch
+# website
 My simple static website
