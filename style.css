@@ -1,0 +1,59 @@
+/* Réglage arrière-plan et position */
+body {
+    background-color: #181a1b;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+	height:100vh;
+}
+
+div#positionPage {
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/* Titre/soustitre */
+h3 {
+    color: #e8e6e3;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+p#position {
+    margin-top: 0;
+    color: #e8e6e3;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Liens */
+#icons div img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+#icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label {
+    color: #e8e6e3;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+#icons div:not(:last-child) {
+    margin-right: 35px;
+}
+
+/* Suppression affichage liens */
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
